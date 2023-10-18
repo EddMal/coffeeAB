@@ -1,0 +1,63 @@
+.textStyle1{
+color: black;
+font-weight: bolder;
+}
+
+.textStyle2{
+    color: rgb(255, 255, 255);
+    text-align:center;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0); 
+    
+}
+
+.headerImage{
+    position: fixed; 
+    height: 30vh;
+}
+#toggleButton{
+    
+    border-style:hidden;
+    
+}
+
+.customFooter
+{
+    background-image: url(https://thumbs.dreamstime.com/z/coffee-beans-8090941.jpg);
+    width: 100%;
+    margin-bottom: 0;
+    
+    text-align: center;
+    color: white;
+    font-variant:small-caps;
+    font-weight: none;
+}
+
+#centerDiv{
+    position: fixed;
+    align-items: center;
+}
+
+.nav-link_Custom {
+    display: table-cell;
+    padding: .5rem 1rem;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+}
+    
+#vilkaVi{
+    width:200px;
+    height:200px;
+    position: fixed;
+    align-items: center;
+
+}
+
+#dropDown{
+    z-index: 1;
+    width: 40VH;
+    
+
+}
+    
