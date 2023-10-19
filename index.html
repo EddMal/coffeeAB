@@ -7,14 +7,17 @@
     <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/customStyle.css">
     
+
+
     <!-- Todos:
                 1. Move toggled menu to the right use the if true case if tru= menu content moved to the right
-                2.  change cards dimentions to fixed an add better scaling of text when size of window is reduced.
-                3. Change card-footer layout
-                4.(same as 2.). Text relative to size of window
-                -->
+                2. Add gutters to the cards, change cards dimentions to fixed and change card-footer layout
+                3. Text relative to size of window
+                4. cars size-->
 </head>
-<body>
+
+
+<body style="overflow-x:hidden;">
         <header>
             <nav class="navbar navbar-expand-md fixed top bg-white">
                 <div class ="container">
@@ -29,16 +32,16 @@
                     <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="collapse navbar-collapse " id="navbarCollapse">
                         <ul class="nav navbar-nav mr-auto position-absolute container-fluid" id="dropDown">
                             <li class="nav-item active">
-                                <a class="link_Custom textStyle2" href="index.html">-Hem</a>
+                                <a class="link_Custom textStyle2 menuUnfoldSetting" href="index.html">-Hem</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="link_Custom textStyle2" href="produkter.html">-Produkter</a>
+                                <a class="link_Custom textStyle2 menuUnfoldSetting" href="produkter.html">-Produkter</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="link_Custom textStyle2" href="omOss.html">-Om oss</a>
+                                <a class="link_Custom textStyle2 menuUnfoldSetting" href="omOss.html">-Om oss</a>
                             </li>
                         </ul>
 

@@ -45,6 +45,16 @@ font-weight: bolder;
     text-decoration: none;
     font-style: normal;
 }
+
+.li [aria-expanded="true"]{
+    margin-left: 80%;
+
+  }
+  
+ #menuUnfoldSetting[aria-expanded="true"]{
+    margin-left: 0%;
+
+  }
     
 #vilkaVi{
     width:200px;
@@ -57,7 +67,5 @@ font-weight: bolder;
 #dropDown{
     z-index: 1;
     width: 40VH;
-    
-
 }
     
